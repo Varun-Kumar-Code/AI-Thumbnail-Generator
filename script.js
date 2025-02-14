@@ -43,18 +43,3 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
       alert('Failed to generate thumbnail. Please try again.');
     }
   });
-
-  headers: {
-    'Authorization','Bearer sk-69f4b0987b61441383680dfd97528a47'
-  }
-
-  if (!response.ok) {
-    throw new Error(`Failed to generate thumbnail: ${response.statusText}`);
-  }
-
-  if (data.thumbnailUrl) {
-    thumbnailOutput.src = data.thumbnailUrl;
-  } else {
-    throw new Error('Thumbnail URL not found in the response');
-  }
-
