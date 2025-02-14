@@ -1,7 +1,7 @@
-const response = await fetch('https://api.deepai.org/api/thumbnail-generator', {
+const response = await fetch('https://api.deepseek.com/v1/thumbnail', {
     method: 'POST',
     headers: {
-      'Authorization': 'YOUR_API_KEY',
+      'Authorization': 'sk-69f4b0987b61441383680dfd97528a47',
     },
     body: formData,
   });
@@ -23,7 +23,7 @@ const response = await fetch('https://api.deepai.org/api/thumbnail-generator', {
   
     try {
       // Replace with your AI API endpoint
-      const response = await fetch('https://api.example.com/generate-thumbnail', {
+      const response = await fetch('https://api.deepseek.com/v1/thumbnail', {
         method: 'POST',
         body: formData,
       });
