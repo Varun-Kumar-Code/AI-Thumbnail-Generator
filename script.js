@@ -4,7 +4,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   const thumbnailOutput = document.getElementById('thumbnailOutput');
   
   // Check if a file is uploaded
-    if (!fileInput.files[0]) {
+  if (!fileInput.files[0]) {
       alert('Please upload an image first!');
       return;
     }
