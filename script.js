@@ -18,7 +18,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
     // Replace with your AI API endpoint
       const response = await fetch('https://api.deepseek.com/v1/thumbnail', {
         method: 'POST',
-      headers: {
+        headers: {
           'Authorization': 'Bearer sk-69f4b0987b61441383680dfd97528a47', // Add 'Bearer' prefix to the API key
         },
         body: formData, // Send FormData
