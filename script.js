@@ -14,7 +14,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   formData.append('image', file); // Append the image file
   formData.append('style', style); // Append the selected style
   
-    try {
+  try {
       // Replace with your AI API endpoint
       const response = await fetch('https://api.deepseek.com/v1/thumbnail', {
         method: 'POST',
