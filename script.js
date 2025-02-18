@@ -3,7 +3,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   const style = document.getElementById('style').value;
   const thumbnailOutput = document.getElementById('thumbnailOutput');
   
-    // Check if a file is uploaded
+  // Check if a file is uploaded
     if (!fileInput.files[0]) {
       alert('Please upload an image first!');
       return;
