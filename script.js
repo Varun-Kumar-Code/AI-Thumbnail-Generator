@@ -42,4 +42,4 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
     console.error('Error:', error);
     alert('Failed to generate thumbnail. Please try again.');
   }
-  });
+});
