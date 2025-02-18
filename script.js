@@ -38,7 +38,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
       } else {
         throw new Error('Thumbnail URL not found in the response');
       }
-    } catch (error) {
+  } catch (error) {
       console.error('Error:', error);
       alert('Failed to generate thumbnail. Please try again.');
     }
