@@ -12,7 +12,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   const file = fileInput.files[0];
   const formData = new FormData();
   formData.append('image', file); // Append the image file
-    formData.append('style', style); // Append the selected style
+  formData.append('style', style); // Append the selected style
   
     try {
       // Replace with your AI API endpoint
