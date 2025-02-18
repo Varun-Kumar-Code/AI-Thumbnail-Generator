@@ -1,6 +1,6 @@
 document.getElementById('generateBtn').addEventListener('click', async () => {
   const fileInput = document.getElementById('imageUpload');
-    const style = document.getElementById('style').value;
+  const style = document.getElementById('style').value;
     const thumbnailOutput = document.getElementById('thumbnailOutput');
   
     // Check if a file is uploaded
