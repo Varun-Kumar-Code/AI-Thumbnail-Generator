@@ -7,7 +7,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   if (!fileInput.files[0]) {
     alert('Please upload an image first!');
     return;
-    }
+  }
   
     const file = fileInput.files[0];
     const formData = new FormData();
