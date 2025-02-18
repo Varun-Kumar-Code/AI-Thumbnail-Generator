@@ -5,7 +5,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   
   // Check if a file is uploaded
   if (!fileInput.files[0]) {
-  alert('Please upload an image first!');
+    alert('Please upload an image first!');
       return;
     }
   
