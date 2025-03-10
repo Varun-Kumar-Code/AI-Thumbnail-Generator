@@ -43,3 +43,14 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
     alert('Failed to generate thumbnail. Please try again.');
   }
 });
+
+
+//Loading Page
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Simulate a loading delay
+  setTimeout(function() {
+      document.querySelector('.ring').style.display = 'none';
+      document.querySelector('.content').style.display = 'block';
+  }, 3000); // 5 seconds delay
+});
