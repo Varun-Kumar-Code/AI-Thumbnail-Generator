@@ -60,5 +60,4 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   // Simulate a loading delay
   setTimeout(function () {
-    document.querySelector('.ring').style.display = 'none';
-    document.querySelector('.content').style.display = 'block';
+    document.querySelector('.ring').style.display = 'none'
