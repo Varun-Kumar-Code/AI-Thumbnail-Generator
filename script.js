@@ -54,3 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector('.content').style.display = 'block';
   }, 3000); // 5 seconds delay
 });
+
+//Loading Page
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Simulate a loading delay
+  setTimeout(function () {
+    document.querySelector('.ring').style.display = 'none';
+    document.querySelector('.content').style.display = 'block';
+  }, 3000); // 5 seconds delay
