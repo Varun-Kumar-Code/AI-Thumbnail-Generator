@@ -62,4 +62,3 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.querySelector('.ring').style.display = 'none';
     document.querySelector('.content').style.display = 'block';
-  }, 3000); // 5 seconds delay
