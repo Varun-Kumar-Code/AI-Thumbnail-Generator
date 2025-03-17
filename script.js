@@ -54,5 +54,3 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector('.content').style.display = 'block';
   }, 3000); // 5 seconds delay
 });
-
-//Loading Page
