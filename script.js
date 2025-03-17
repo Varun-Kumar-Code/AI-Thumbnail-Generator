@@ -57,6 +57,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Loading Page
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Simulate a loading delay
-  setTimeout(function ()
+document.addEventListener("DOMContentLoaded", function () 
