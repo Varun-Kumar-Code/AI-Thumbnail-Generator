@@ -56,5 +56,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Loading Page
-
-document.addEventListener("DOMContentLoaded", function () 
