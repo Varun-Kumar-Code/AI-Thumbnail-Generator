@@ -143,7 +143,6 @@ button:hover {
     transform: rotate(405deg);
   }
 }
-
 .content {
   display: none;
   /* Hidden by default */
